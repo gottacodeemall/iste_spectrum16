@@ -1,0 +1,192 @@
+*{
+  border-sizing: border-box;
+}
+
+#nav{
+
+  background-color: white;
+  position: fixed;
+
+  height: 100vh;
+  width:290px;
+  float:left;
+  z-index:1;
+  left:-225px;
+  opacity:0.6;
+}
+
+#nav-name{
+  position: absolute;
+  right:20px;
+  top:37vh;
+}
+#nav-image{
+  display:block;
+  position:absolute;
+  left:0px;
+  top:0px;
+  height:10vh ;
+  width:225px;
+  padding-bottom:3px;
+  background-color:white;
+
+}
+#nav-about{
+  top:10vh;
+  display:block;
+  position:absolute;
+  left:0px;
+  height:20vh;
+  width:225px;
+  background-image: url(../img/about.jpg);
+  filter: grayscale(80%);
+  filter:saturate(10%)
+  opacity:0.6;
+  background-color:black;
+}
+
+#nav-about:hover{
+
+  opacity:1;
+  filter:grayscale(0%);
+  transition:all 0.3s ease-in-out;
+}
+#nav-about div{
+  position:absolute;
+  top:7vh;
+  left:60px;
+  font-weight: bold;
+  color:white;
+  font-size: 25px;
+}
+#nav-events{
+  display:block;
+  position:absolute;
+  left:0px;
+  height:20vh;
+  top:30vh;
+  width:225px;
+  background-image: url(../img/event.jpg);
+  filter: grayscale(80%);
+  filter:saturate(10%)
+  opacity:0.6;
+}
+#nav-events:hover{
+
+  opacity:1;
+  filter:grayscale(0%);
+  transition:all 0.3s ease-in-out;
+}
+#nav-events div{
+  position:absolute;
+  top:7vh;
+  left:60px;
+  font-weight: bold;
+  color:white;
+  font-size: 25px;
+}
+#nav-contact{
+  position:absolute;
+  left:0px;
+  height:20vh;
+  top:50vh;
+  width:225px;
+  background-image: url(../img/contactus.jpg);
+  filter: grayscale(80%);
+  filter:saturate(10%)
+  opacity:0.6;
+}
+#nav-contact:hover{
+
+  opacity:1;
+  filter:grayscale(0%);
+  transition:all 0.3s ease-in-out;
+}
+#nav-contact div{
+  position:absolute;
+  top:7vh;
+  left:50px;
+  font-weight: bold;
+  color:white;
+  font-size: 25px;
+}
+#nav-schedule{
+  position:absolute;
+  left:0px;
+  height:20vh;
+  top:70vh;
+  width:225px;
+  background-color: grey;
+  background-image: url(../img/schedule.jpg);
+  filter:grayscale(80%);
+  filter:saturate(10%)
+  opacity:0.6;
+}
+#nav-schedule:hover{
+
+  opacity:1;
+  filter:grayscale(0%);
+  transition:all 0.3s ease-in-out;
+}
+#nav-schedule div{
+  position:absolute;
+  top:7vh;
+  left:40px;
+  font-weight: bold;
+  color:white;
+  font-size: 25px;
+}
+#nav-followus{
+  position:absolute;
+  left:0px;
+  height:10vh;
+  top:90vh;
+  width:225px;
+  background-color: white;
+  background-image: url(../img/followus.jpg);
+  filter: grayscale(80%);
+  filter:saturate(10%)
+  opacity:0.6;
+}
+#nav-followus:hover{
+
+  opacity:1;
+  filter:grayscale(0%);
+  transition:all 0.3s ease-in-out;
+}
+#nav-name p{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom:-3px;
+
+}
+#nav-followus div{
+  position:absolute;
+  font-weight: bold;
+  color:white;
+  font-size: 25px;
+  top:3vh;
+  left:38px;
+
+}
+.content{
+  background-color: black;
+  height:100vh;
+  width:98.5vw;
+  z-index:0;
+  position: relative;
+  display:block;
+
+}
+.about{
+  display:block;
+  position: relative;
+  background-color: grey;
+  height:100vh;
+  width:98.5vw;
+
+}
+/*
+<img id="facebook" src="img/index.png " width="40px" height="20vh">
+                       <img id="mail" src="img/mail.png" width="40px" height="20vh">
+                       */
