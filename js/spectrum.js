@@ -14,7 +14,7 @@ $(document).ready(function() {
      $(this).stop().animate(
     {
       left: '-225px',
-      opacity:0.8
+      opacity:0.6
     },
     1500,
     'easeOutBounce'
