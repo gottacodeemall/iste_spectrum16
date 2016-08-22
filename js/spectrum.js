@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('#nav').hover(
+  $('.nav').hover(
      function() {
     $(this).stop().animate(
     {
