@@ -2,7 +2,7 @@
   border-sizing: border-box;
 }
 .nav{
-  background-color: white;
+  background-color: #f6f6f6;
   position: fixed;
 
   height: 100vh;
@@ -147,7 +147,7 @@
 .about{
   display:block;
   position: relative;
-  background-color: rgb(102, 102, 102);
+  background-color: #2B2B2B;
   height:60vh;
   width:98.75vw;
   z-index:0;
@@ -167,7 +167,7 @@
   overflow: hidden;
 }
 .head_1 p{
-  font-family: 'Alpha Slab One';
+  font-family: 'Bitter';
   font-weight: bold;
   font-size: 50px;
   color: white;
@@ -181,7 +181,7 @@
 
 }
 .head_2 p{
-  font-family: 'Alpha Slab One';
+  font-family: 'Bitter';
   font-weight: bold;
   font-size: 30px;
   color: white;
@@ -195,7 +195,7 @@
 
 }
 .date p{
-  font-family: 'Alpha Slab One';
+  font-family: 'Bitter';
   font-weight: bold;
   font-size: 25px;
   color: white;
@@ -237,16 +237,16 @@
 .tagline{
   display:block;
   position: relative;
-  background-color: rgb(120,120,120);
+  background-color: #F6F6F6;
   height:30vh;
   width:98.75vw;
   z-index:0;
-
+font-family: "Raleway";
 }
 .tagline p:nth-child(1){
   font-size: 40px;
   font-weight: bold;
-  color:white;
+  color:#2B2B2B;
   padding-left:20vw;
   padding-top:7vh;
 
@@ -254,7 +254,7 @@
 .tagline p:nth-child(2){
   font-size: 20px;
   font-weight:400;;
-  color:white;
+  color:#2B2B2B;
   padding-left:39vw;
 
 }
@@ -265,6 +265,7 @@
   width:45vw;
   left:8vw;
   background-size: contain;
+  font-family: "Raleway";
 
 }
 .about-content p{
@@ -290,7 +291,8 @@
   display:block;
   height:190vh;
   width:98.75vw;
-  background-color:rgb(102,102,102)
+  background-color:#2B2B2B;
+
 }
 .events-title{
   position:absolute;
@@ -299,6 +301,7 @@
   height:8vh;
   width:10vw;
   top:7vh;
+  font-family: "BioRhyme"(!important);
 }
 .events-title p{
   color:white;
@@ -374,8 +377,7 @@
   display:inline-block;
   width:22vw;
   height:14vh;
-  background-color:#D7895E;
-  border-radius: 6%;
+
 }
 
 .events-spectrumquiz{
@@ -525,13 +527,13 @@
 
 .schedule{
   position:relative;
-  background-color: rgb(120,120,120);
+  background-color: white;
   width:98.75vw;
   height:20vh;
 }
 .schedule-button{
   position:absolute;
-  background-color: white;
+  background-color: #2B2B2B;
   width:15vw;
   height:7vh;
 
@@ -543,8 +545,8 @@
   transform:scale(0.90,0.96);
 }
 .schedule-button p{
-  font-family: "Alpha Sab One";
-  color:black;
+  font-family: "Bitter";
+  color:#E9E581;
   font-size:25px;
   font-weight: bold;
   padding-top:5px;
@@ -730,7 +732,7 @@
   white-space: nowrap;
   left: 0;
   top: 0;
-  color:#C3454D;
+  color:#DE1B1B;
 }
 .cd-words-wrapper b.is-visible {
   position: relative;
@@ -1309,11 +1311,12 @@ new
   background: #ffffff;
 }
 .glitch-transition .cd-modal .modal-content {
-  color: #676970;
+  color: #f6f6f6;
+  background-color: #2B2B2B;
 }
 .glitch-transition .cd-modal .modal-close::before,
 .glitch-transition .cd-modal .modal-close::after {
-  background: #ffffff;
+  background: #2B2B2B;
 }
 .glitch-transition .cd-modal .modal-close {
   background: #d9d9d9;
@@ -1345,7 +1348,7 @@ new
 
 footer{
   position:relative;
-  background-color: rgb(102,102,102);
+  background-color: #2B2B2B;
   width:98.75vw;
   height:35vh;
 }
@@ -1381,12 +1384,14 @@ footer{
 .copyrights{
   width:98.75vw;
   height:6vh;
-  background-color: rgb(120,120,120);
+  background-color: #f6f6f6;
 }
 .copyrights p{
   font-weight: bold;
   font-size: 16px;
-  color: white;
+  color: #2B2B2B;
   padding-left:42vw;
   padding-top:1vh;
 }
+
+.count-particles{ background: #000022; position: absolute; top: 48px; left: 0; width: 80px; color: #13E8E9; font-size: .8em; text-align: left; text-indent: 4px; line-height: 14px; padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; } .js-count-particles{ font-size: 1.1em; } #stats, .count-particles{ -webkit-user-select: none; margin-top: 5px; margin-left: 5px; } #stats{ border-radius: 3px 3px 0 0; overflow: hidden; } .count-particles{ border-radius: 0 0 3px 3px; }
