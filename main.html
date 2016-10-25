@@ -7,14 +7,13 @@
   <meta name="description" content="Spectrum is an technical event conducted by ISTE Students' Chapter NIT CALICUT for the students of first year......">
   <meta property="og:title" content="SPECTRUM 16">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="img/logo.png">
-  <link rel="shortcut icon" href="http://www.istenitc.org/bgimg/favicon.ico">
+  <link rel="icon" href="img/logo1.jpg" type="image/x-icon">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/spectrum.css" type="text/css">
   <link rel="stylesheet" href="css/fonts.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="css/animate.css">
+  <script src="js/wow.min.js"></script>
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-ui.min.js"></script>
   <script src="js/spectrum.js"></script>
@@ -23,6 +22,9 @@
   <script src="js/animated.js"></script>
 </head>
 <body >
+  <script>
+  new WOW().init();
+  </script>
   <div class="se-pre-con"></div>
   <div class="nav-icon">
     <img src="img/menu.png" height="50px" width="50px">
@@ -60,8 +62,9 @@
 </div>
 <div class="content" data-vide-bg="mp4:img/spectrum,poster:img/wallpaper.png" data-vide-options="posterType:png,loop: true, muted: true, position: 0% 0%"></div>
   <div class="about" id="about">
-    <div class="about-content"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum lorem risus, nec suscipit lorem laoreet quis.</p></div>
-    <div class="about-gallery">
+    <div id="particles-js2"></div>
+    <div class="about-content wow slideInLeft"  data-wow-duration="1.2s"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum lorem risus, nec suscipit lorem laoreet quis.</p></div>
+    <div class="about-gallery wow slideInRight"  data-wow-duration="1.2s">
       <div class="cd-radial-slider-wrapper">
     		<ul class="cd-radial-slider" data-radius1="60" data-radius2="1364" data-centerx1="110" data-centerx2="1290">
     			<li class="visible">
@@ -169,19 +172,19 @@
 
 
   </div>
-  <div class="tagline"><p>"BEST TECHNICAL EVENT OF NITC 2015" </p>
+  <div class="tagline wow fadeIn"  data-wow-duration="1.2s"><p>"BEST TECHNICAL EVENT OF NITC 2015" </p>
                         <p >Student Activity Cell,NITC</p>
   </div>
 
 <div class="events glitch-transition" id="events">
-  <div id="particles-js">
-  <div class="events-title "><p>EVENTS</p></div>
+<div id="particles-js"></div>
+  <div class="events-title wow fadeIn"  data-wow-duration="1.2s"><p>EVENTS</p></div>
   <div class="events-junkyardwars shadow   events-hover  font cd-main-content">
       <a href="#modal-1" class="cd-btn cd-modal-trigger trigger" >Junkyard Wars</a>
       <img  src="img/events/junk.jpg" alt="junkyard wars" width="100%" height="100%" >
   </div>
 
-  <div class="cd-modal background-dim" id="modal-1">
+  <div class="cd-modal background-dim " id="modal-1">
 
     <div class="modal-content">
       <h2>Junkyard Wars</h2>
@@ -629,8 +632,6 @@
     <a href="#0" class="modal-close">Close</a>
   </div> <!-- .cd-modal -->
 
-
-</div>
 </div>
 <div class="schedule" id="schedule">
   <div class="schedule-button">

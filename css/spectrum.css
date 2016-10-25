@@ -309,7 +309,7 @@ font-family: "Bitter";
   font-weight: bold;
   color:#2B2B2B;
   padding-left:25vw;
-  padding-top:7vh;
+  padding-top:10vh;
 
 }
 .tagline p:nth-child(2){
@@ -434,7 +434,7 @@ font-family: "Bitter";
 .events-fullpwoli{
   position:absolute;
   left:42.5vw;
-  top:80vh;
+  top:82vh;
   display:inline-block;
   width:22vw;
   height:14vh;
@@ -545,7 +545,7 @@ font-family: "Bitter";
 
 .trigger{
   position:absolute;
-  height:30%;
+  height:25%;
   width:100%;
   bottom:0px;
   left:0px;
@@ -568,10 +568,11 @@ font-family: "Bitter";
     font-family: "Oxygen";
   font-size: 25px;
   font-weight: 400;
+  vertical-align: middle;
   text-decoration: none;
 }
 .font-big a{
-  padding-top:4vh;
+  padding-top:6vh;
     font-family: "Oxygen";
   font-size: 25px;
   font-weight: 400;
@@ -610,7 +611,7 @@ font-family: "Bitter";
   color:#E9E581;
   font-size:25px;
   font-weight: bold;
-  padding-top:5px;
+  padding-top:10px;
   padding-left:33px;
 }
 
@@ -1518,5 +1519,10 @@ footer{
   padding-left:42vw;
   padding-top:1vh;
 }
-
+#particles-js{
+  position:absolute;
+  left:0px;
+  right:0px;
+  height:100%;
+}
 .count-particles{ background: #000022; position: absolute; top: 48px; left: 0; width: 80px; color: #13E8E9; font-size: .8em; text-align: left; text-indent: 4px; line-height: 14px; padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; } .js-count-particles{ font-size: 1.1em; } #stats, .count-particles{ -webkit-user-select: none; margin-top: 5px; margin-left: 5px; } #stats{ border-radius: 3px 3px 0 0; overflow: hidden; } .count-particles{ border-radius: 0 0 3px 3px; }
